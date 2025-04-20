@@ -1,8 +1,8 @@
 // /app/auth/profile.jsx
 'use client'
 import { useState, useEffect } from 'react';
-import { supabase } from '../../lib/supabaseClient';
-import { useAuthContext } from '../../context/AuthContext';
+import { supabase } from '@/lib/supabaseClient';
+import { useAuthContext } from '@/context/AuthContext';
 import { useRouter } from 'next/router';
 
 const Profile = () => {
