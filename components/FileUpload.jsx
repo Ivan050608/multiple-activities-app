@@ -1,4 +1,5 @@
 // components/FileUpload.jsx
+'use client'
 import { useState } from 'react';
 import { supabase } from '@/lib/supabaseClient';
 

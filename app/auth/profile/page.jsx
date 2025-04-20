@@ -1,4 +1,5 @@
 // /app/auth/profile.jsx
+'use client'
 import { useState, useEffect } from 'react';
 import { supabase } from '../../lib/supabaseClient';
 import { useAuthContext } from '../../context/AuthContext';
